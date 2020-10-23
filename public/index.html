@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date & Time</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body onresize="location.reload()">
+    <div class="container">
+        <div id="content">
+            <div id="dt">
+                <h1 id="t"></h4>
+                <p id="d"></p>
+            </div>
+        </div>
+        <img src="./iphone.png" id="iphone">
+    </div>
+    <script>
+        const iphone_img = document.getElementById('iphone');
+        const content_div = document.getElementById('content');
+
+        content_div.style.width = ""+(iphone_img.clientWidth-5)+"px";
+        content_div.style.height = ""+(iphone_img.clientHeight-5)+"px";
+    </script>
+    <script src="./script.js"></script>
+</body>
+</html>

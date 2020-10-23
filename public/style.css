@@ -1,0 +1,42 @@
+body{
+    background: #DCF5FF;
+    margin: 0px;
+    height: 100vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-family: Arial, sans-serif,Arial, Helvetica, sans-serif;
+}
+
+#iphone{
+    height: 75vh;
+    border-radius: 40px;
+    box-shadow:  20px 20px 60px #bbd0d9, 
+             -20px -20px 60px #fdffff;
+}
+
+#content{
+    box-sizing: border-box;
+    position: absolute;
+    background: url('./crop.jpg') no-repeat;
+    background-size: 120%;
+    border-radius: 40px;
+    padding-top: 90px;
+    z-index: -1;
+    visibility: hidden;
+}
+
+#dt{
+    text-align: center;
+    color: whitesmoke;
+}
+
+h1{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+p{
+    margin-top: 10px;
+    font-size: 18px;
+}
